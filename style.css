@@ -1,0 +1,48 @@
+/*
+  CSS RESET START
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+/*
+  CSS RESET END
+*/
+
+:root {
+    --yellow: hsl(47 88% 63%);
+    
+    --gray-950: hsl(0 0% 7%);
+    --gray-500: hsl(0 0% 42%);
+
+    --white: hsl(0 0% 100%);
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    background-color: var(--yellow);
+}

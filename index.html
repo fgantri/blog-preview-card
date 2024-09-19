@@ -8,6 +8,7 @@
   
   <title>Frontend Mentor | Blog preview card</title>
 
+  <link rel="stylesheet" href="style.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -15,20 +16,33 @@
   </style>
 </head>
 <body>
+  <main>
+    
+    <article class="blog-post-preview">
+      <header>
+        <img src="./assets/images/illustration-article.svg" alt="blog post thumbnail picture">
+        <div class="label">Learning</div>
+        <time datetime="2023-12-21" pubdate="pubdate">Published 21 Dec 2023</time>
+      </header>
+      
+      <div class="preview-text">
+        <h2>HTML & CSS foundations</h2>
+        <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+      </div>
 
-  Learning
+      <footer>
+        <address class="author">
+          <img src="./assets/images/image-avatar.webp" src="author's profile picture">
+          <a rel="author" href="#">Greg Hooper</a>
+        </address>
+      </footer> 
+    </article>
 
-  Published 21 Dec 2023
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
+  </main>
   
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="#">Fouad Gantri</a>.
+  </footer>
 </body>
 </html>

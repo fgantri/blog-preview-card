@@ -8,11 +8,27 @@
   
   <title>Frontend Mentor | Blog preview card</title>
 
+  <style>
+    @font-face {
+      font-family: Figtree;
+      src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+    }
+  </style>
   <link rel="stylesheet" href="style.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution { 
+      position: absolute;
+      right: 0;
+      left: 0;
+      bottom: 16px;
+      font-size: 11px; 
+      text-align: center; 
+    }
+    
+    .attribution a { 
+      color: hsl(228, 45%, 44%); 
+    }
   </style>
 </head>
 <body>
@@ -21,11 +37,11 @@
     <article class="blog-post-preview">
       <header>
         <img src="./assets/images/illustration-article.svg" alt="blog post thumbnail picture">
-        <div class="label">Learning</div>
-        <time datetime="2023-12-21" pubdate="pubdate">Published 21 Dec 2023</time>
       </header>
       
-      <div class="preview-text">
+      <div class="preview-content">
+        <div class="label">Learning</div>
+        <time datetime="2023-12-21" pubdate="pubdate">Published 21 Dec 2023</time>
         <h2>HTML & CSS foundations</h2>
         <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
       </div>
